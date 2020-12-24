@@ -23,9 +23,12 @@
 }
 
 .logo {
-  background-image: url(../images/logo_place_header.svg);
+  width: 183px;
+  height: 30px;
+  
 }
-.logo__place_header {
+.logo_place_header {
+  background-image: url(../images/logo_place_header.svg);
   position:absolute;
   top:30px;
   left:64px;
@@ -42,7 +45,9 @@
   justify-content: center;
   align-self: center;
   font-weight: bold;
-
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -53,7 +58,8 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__link {
@@ -76,7 +82,7 @@
   width: 568px;
   background: #2f80ed;
   position: absolute;
-  margin-top: 64px;
+  top: 64px;
   right: 0;
 }
 
@@ -84,9 +90,7 @@
   margin-top: 100px;
 }
 
-.description p {
-  margin-top:0;
-}
+
 .two-columns {
  display: flex;
  flex-direction: row;
@@ -103,6 +107,8 @@
   font-size: 18px;
   font-weight: normal;
   width: 175px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .two-columns__main-text {
@@ -116,8 +122,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top:30px;
-  margin-bottom:30px;
+  margin: 0 0 30px 0;
+}
+.two-columns__paragraph:last-child {
+ margin-bottom: 0;
 }
 .two-columns__span-accent {
   line-height: 34px;
@@ -139,13 +147,9 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-}
-.section-title__digits_header {
- line-height: 1.15;
- font-size: 60px;
- font-weight: bold;
- margin-top: 0;
- margin-bottom: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-subtitle {
@@ -154,13 +158,12 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 .section-subtitle__brain {
- line-height: 34px;
- font-size: 24px;
- font-weight: normal;
- margin-top: 0;
- margin-bottom: 0;
+
 }
 
 .table {
@@ -190,7 +193,6 @@
 
 .table__text {
   margin-top: 20px;
-  margin-bottom: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -320,7 +322,8 @@
 .footer {
   position: relative;
   background-color: #1f1f1f;
-  min-height: 250px;
+  min-height: 350px;
+  box-sizing: border-box;
   padding: 60px 0 40px 0; 
 }
 
@@ -357,8 +360,7 @@
 }
 
 .logo_place_footer {
-  width:183px;
-  height:35px;
+
 }
 
 .footer__author {
