@@ -60,6 +60,7 @@
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
+  z-index: 2;
 }
 
 .header__link {
@@ -158,12 +159,11 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-.section-subtitle__brain {
-
 }
 
 .table {
@@ -193,6 +193,7 @@
 
 .table__text {
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -252,7 +253,7 @@
   overflow: hidden;
 }
 
-.kaufman__table_theme_dark {
+.table_theme_dark {
   display: flex;
   width: 1100px;
   margin-left: auto;
@@ -271,6 +272,8 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
   color: white;
   line-height: 1.15;
   font-size: 60px;
@@ -284,6 +287,9 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
   color: white;
   line-height: 34px;
   font-size: 24px;
@@ -292,7 +298,7 @@
 }
 
 
-.kaufman__table_cell_theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
@@ -353,7 +359,8 @@
 }
 
 .logo_place_footer {
-
+  width:183px;
+  height:35px;
 }
 
 .footer__author {
