@@ -1,0 +1,10 @@
+.resources__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+.resources__link .resources__img:hover{
+    opacity: 0.4;
+}
