@@ -7,3 +7,6 @@
     transition: opacity 0.4s linear;
     opacity: 1;
   }
+.resources__img:hover{
+    opacity: 0.4;
+}
